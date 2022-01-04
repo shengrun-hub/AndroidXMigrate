@@ -1,5 +1,5 @@
 # AndroidXMigrate
-为了兼容Android 9.0 以上的系统，从1.1.7开始，使用AndroidX，旧版本的SDK迁移到AndroidX可以参考本页面的迁移说明。
+为了兼容Android 9.0 以上的系统，[TTC Android BLE SDK](https://github.com/shengrun-hub/TTC_BLE_DEMO-Kotlin)从1.1.7开始，使用AndroidX，旧版本的SDK如果需要迁移到AndroidX可以参考本页面的迁移说明。
 
 ## 1、项目根目录下 gradle.properties 文件中添加一行：  
 ```
