@@ -5,9 +5,10 @@
 ```
 android.useAndroidX=true
 ```
-## 2、app/build.gradle 中修改依赖
-将原先的 ```implementation files('libs/AndroidBleApi_V1.1.6.jar')``` 替换为 ``` implementation 'com.ttcble.android:blebase:1.1.8' ```  
-并添加下面的 androidx 相关的库
+## 2、修改依赖
+（1）删除 lib 目录下的 AndroidBleApi_V1.1.6.jar，删除 jniLibs 目录下的 libhy_api.so；  
+（2）app/build.gradle 中，将原先的 ```implementation files('libs/AndroidBleApi_V1.1.6.jar')``` 替换为 ``` implementation 'com.ttcble.android:blebase:1.1.8' ```  
+并添加下面的 androidx 相关的库：
 ```
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
